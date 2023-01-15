@@ -22,9 +22,9 @@ public class CheckingHints {
     }
 
     @ValueSource(strings = {
-            "Андрей Мал",
-            "Алексей Ил",
-            "Александр Ива"
+            "Мария Мал",
+            "Надежда Ил",
+            "Анна Ива"
     })
 
     @ParameterizedTest(name = "Checking hints by name: {0}")
