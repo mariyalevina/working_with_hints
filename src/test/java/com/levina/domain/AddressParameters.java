@@ -1,9 +1,9 @@
 package com.levina.domain;
 
 public enum AddressParameters {
-    CITY1("Ульяновск"),
-    CITY2("Казань"),
-    CITY3("Москва");
+    CITY1("Краснодар"),
+    CITY2("Волгоград"),
+    CITY3("Пенза");
 
 
     private final String description;
