@@ -22,9 +22,9 @@ public class CheckingHints {
     }
 
     @ValueSource(strings = {
-            "Андрей Мал",
-            "Алексей Ил",
-            "Александр Ива"
+            "Мария Мал",
+            "Надежда Ил",
+            "Анна Ива"
     })
 
     @ParameterizedTest(name = "Checking hints by name: {0}")
@@ -36,10 +36,10 @@ public class CheckingHints {
     }
 
     @CsvSource(value = {
-            "Андрей; Мал",
-            "Алексей; Ил",
-            "Александр; Ива",
-            "Борис; Бор"
+            "Максим; Мал",
+            "Антон; Ил",
+            "Екатерина; Ива",
+            "Анастасия; Бор"
     }, delimiter = ';')
 
     @ParameterizedTest(name = "Search by first and last name")
